@@ -1,0 +1,19 @@
+*{
+    padding: 0%;
+    transition: 0.2s ease-in-out;
+    margin: 0%;
+    --headingColor: #c6cfd6;
+    --paragraphColor:#c3d4e9da;
+    --menuColor:rgb(177, 177, 177);
+    --bgColor:#0f1535;
+    --bgColorHover:rgba(255, 255, 255, 0.10);
+    --placeColor:rgba(255, 255, 255, 0.218);
+    --bgColor2:#181f4a;
+    --cardColor:#0a0e26;
+    --bgDisable:#4b5481;
+    --spinnerTransparent:rgba(255, 255, 255, 0.10);
+    --borderColor:rgba(255, 255, 255, 0.15);
+    --scrollBar:#00041d;
+    font-family: "Noto Sans", sans-serif;;
+    box-sizing:border-box ;
+}

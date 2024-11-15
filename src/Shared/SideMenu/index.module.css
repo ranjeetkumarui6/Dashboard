@@ -1,0 +1,42 @@
+.sidemenucontainer{
+    border-right: 1px solid var(--borderColor);
+    background-color: var(--bgColor);
+    min-width: 19%;
+
+}
+.contentcontainer{
+    padding: 20px 15px;
+    overflow-y: scroll;
+    scroll-snap-type: mandatory;
+    height: 87vh;
+   
+}
+::-webkit-scrollbar{
+    width: 8px;
+
+}
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color: transparent;
+    border-radius: 20px;
+}
+.sidemenucontainer:hover ::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0,0,0.50);
+}
+.logocontainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 10px;
+    padding: 20px 5px;
+}
+.logocontainer >img{
+    height: 40px;
+}
+.logocontainer >h5{
+    height: 30px;
+    font-size: 25px;
+    letter-spacing: 1px;
+}

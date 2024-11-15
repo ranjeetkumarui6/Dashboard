@@ -1,0 +1,59 @@
+.menudashboard{
+  
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100%;
+    color: var(--menuColor);
+    margin: 5px 0;
+
+}
+.menudashboard:hover{
+    background-color: var(--bgColorHover);
+    color: white;
+}
+.logocontentcontainer{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+.dashboard{
+    margin-right: auto;
+}
+.toggledashboard1{
+    transition: 0.2s ease-in-out;
+    overflow: hidden;
+}
+.toggledashboard2{
+    overflow: hidden;
+    transition: 0.2s ease-in-out;
+}
+
+.dashboardarrow2{
+    transition: 0.2s ease-in-out;
+}
+.dashboardarrow1{
+    transform: rotate(-90deg);
+    transition: 0.2s ease-in-out;
+
+}
+.dashboardchild{
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 5px 0;
+    color: var(--menuColor);
+}
+.dashboardchild span:hover{
+    color: white;
+}
+.dashboardchild:first-child{
+    background-color: var(--bgColorHover);
+
+}
+.dashboardchild:hover{
+    background-color: var(--bgColorHover);
+
+}
